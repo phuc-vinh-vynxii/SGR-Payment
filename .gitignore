@@ -1,2 +1,28 @@
 .env
 node_modules/
+
+# Logs
+Payment-FE/logs
+Payment-FE/*.log
+Payment-FE/npm-debug.log*
+Payment-FE/yarn-debug.log*
+Payment-FE/yarn-error.log*
+Payment-FE/pnpm-debug.log*
+Payment-FE/lerna-debug.log*
+
+# Output folders
+Payment-FE/node_modules/
+Payment-FE/dist/
+Payment-FE/dist-ssr/
+Payment-FE/*.local
+
+# Editor directories and files
+Payment-FE/.vscode/*
+!Payment-FE/.vscode/extensions.json
+Payment-FE/.idea
+Payment-FE/.DS_Store
+Payment-FE/*.suo
+Payment-FE/*.ntvs*
+Payment-FE/*.njsproj
+Payment-FE/*.sln
+Payment-FE/*.sw?
